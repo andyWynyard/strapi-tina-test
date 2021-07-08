@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const Images = ({ image, style }) => {
   const imageUrl = getStrapiMedia(image)
-  // console.log(`image`, image)
-  const { height, width } = image
+  console.log(`image`, image)
+  // const { height, width } = image
 
   return (
     <Image
